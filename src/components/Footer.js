@@ -34,12 +34,6 @@ const Footer = () => {
               color: '#ffffff',
               fontWeight: 400
             }}>
-              e equipe da
-            </Typography>
-            <Typography variant="body1" sx={{ 
-              color: '#ffd700',
-              fontWeight: 600
-            }}>
               @HS HaxHost
             </Typography>
           </Stack>

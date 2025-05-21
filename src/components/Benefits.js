@@ -23,9 +23,18 @@ const Benefits = () => {
         </Typography>
       </Box>
 
-      <Grid container spacing={4}>
+      <Grid container spacing={4} sx={{ justifyContent: 'center' }}>
         <Grid item xs={12} md={6}>
-          <Box sx={{ p: 4, bgcolor: '#1a1a1a', borderRadius: 2, boxShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>
+          <Box sx={{ 
+            p: 4, 
+            bgcolor: '#1a1a1a', 
+            borderRadius: 2, 
+            boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            textAlign: 'center'
+          }}>
             <Typography variant="h6" sx={{ 
               mb: 2, 
               color: '#ffd700',
@@ -42,7 +51,16 @@ const Benefits = () => {
           </Box>
         </Grid>
         <Grid item xs={12} md={6}>
-          <Box sx={{ p: 4, bgcolor: '#1a1a1a', borderRadius: 2, boxShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>
+          <Box sx={{ 
+            p: 4, 
+            bgcolor: '#1a1a1a', 
+            borderRadius: 2, 
+            boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            textAlign: 'center'
+          }}>
             <Typography variant="h6" sx={{ 
               mb: 2, 
               color: '#ffd700',
@@ -59,7 +77,16 @@ const Benefits = () => {
           </Box>
         </Grid>
         <Grid item xs={12} md={6}>
-          <Box sx={{ p: 4, bgcolor: '#1a1a1a', borderRadius: 2, boxShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>
+          <Box sx={{ 
+            p: 4, 
+            bgcolor: '#1a1a1a', 
+            borderRadius: 2, 
+            boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            textAlign: 'center'
+          }}>
             <Typography variant="h6" sx={{ 
               mb: 2, 
               color: '#ffd700',
@@ -76,7 +103,16 @@ const Benefits = () => {
           </Box>
         </Grid>
         <Grid item xs={12} md={6}>
-          <Box sx={{ p: 4, bgcolor: '#1a1a1a', borderRadius: 2, boxShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>
+          <Box sx={{ 
+            p: 4, 
+            bgcolor: '#1a1a1a', 
+            borderRadius: 2, 
+            boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            textAlign: 'center'
+          }}>
             <Typography variant="h6" sx={{ 
               mb: 2, 
               color: '#ffd700',
@@ -93,7 +129,16 @@ const Benefits = () => {
           </Box>
         </Grid>
         <Grid item xs={12} md={6}>
-          <Box sx={{ p: 4, bgcolor: '#1a1a1a', borderRadius: 2, boxShadow: '0 2px 4px rgba(0,0,0,0.2)' }}>
+          <Box sx={{ 
+            p: 4, 
+            bgcolor: '#1a1a1a', 
+            borderRadius: 2, 
+            boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            textAlign: 'center'
+          }}>
             <Typography variant="h6" sx={{ 
               mb: 2, 
               color: '#ffd700',

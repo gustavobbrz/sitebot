@@ -1,19 +1,26 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import PricingCard from './PricingCard';
+import Home from './Home';
+import Pricing from './Pricing';
+import Purchase from './Purchase';
 import Benefits from './Benefits';
-import PurchaseProcess from './PurchaseProcess';
+import WhyChooseUs from './WhyChooseUs';
+import Testimonials from './Testimonials';
 
-const AppRoutes = () => {
+const RoutesComponent = () => {
   return (
-    <Routes>
-      <Route path="/" element={<PricingCard />} />
-      <Route path="/planos" element={<PricingCard />} />
-      <Route path="/beneficios" element={<Benefits />} />
-      <Route path="/compra" element={<PurchaseProcess />} />
-      <Route path="*" element={<Navigate to="/" replace />} />
-    </Routes>
+    <React.Fragment>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/planos" element={<Pricing />} />
+        <Route path="/compra" element={<Purchase />} />
+        <Route path="/beneficios" element={<Benefits />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+      <WhyChooseUs />
+      <Testimonials />
+    </React.Fragment>
   );
 };
 
-export default AppRoutes;
+export default RoutesComponent;
